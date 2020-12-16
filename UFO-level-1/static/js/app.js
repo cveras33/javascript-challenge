@@ -24,7 +24,6 @@ var form = d3.select("#form");
 
 // Creating Event Handler 
 button.on("click", onButtonClick);
-form.on("submit", onButtonClick);
 
 
 // Completing event handler function for the form 
