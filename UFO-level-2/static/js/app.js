@@ -31,12 +31,31 @@ function onButtonClick() {
   
   d3.event.preventDefault(); 
 
-  var inputElement = d3.select("#datetime");
+  var inputDate = d3.select("#datetime");
+  var inputCity = d3.select("#city");
+  var inputState = d3.select("#state");
+  var inputCountry = d3.select("#country");
+  var inputShape = d3.select("#shape");
 
-  var inputValue = inputElement.property("value").trim();
-  console.log(inputValue);
 
-  var filteredData = tableData.filter(tableData => tableData.datetime === inputValue);
+  var inputDateValue = inputDate.property("value").trim();
+  console.log(inputDateValue);
+
+  var inputCityValue = inputCity.property("value").toLowerCase().trim();
+  console.log(inputCityValue);
+
+  var inputStateValue = inputState.property("value").toLowerCase().trim();
+  console.log(inputStateValue);
+
+  var inputCountryValue = inputCountry.property("value").toLowerCase().trim();
+  console.log(inputCountryValue);
+
+  var inputShapeValue = inputShape.property("value").toLowerCase().trim();
+  console.log(inputShapeValue);
+
+  var filteredData = tableData.filter(tableData => tableData.datetime === inputDateValue && tableData.city === inputCityValue && 
+                                      tableData.state === inputStateValue && tableData.country === inputCountryValue 
+                                      && tableData.shape === inputShapeValue);
   console.log(filteredData);
 
   tbody.html("");
