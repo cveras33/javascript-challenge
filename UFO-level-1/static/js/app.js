@@ -61,9 +61,3 @@ function onButtonClick() {
     tbody.append("tr").append("td").text("No matches available.");
   }
 }
-
-resetbtn.on("click", () => {
-  tbody.html("");
-  populate(data)
-  console.log("Table reset")
-}); 
