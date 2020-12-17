@@ -30,7 +30,7 @@ Level 2 provides a form to filter by 5 different criteria: date/time, city, stat
 * JavaScript 
 
 #### Status #### 
-This project is *in progress*.
+This project is *complete*.
 
 #### Contact ####
 Chloe Veras  
