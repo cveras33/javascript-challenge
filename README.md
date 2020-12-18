@@ -8,6 +8,7 @@ The extra-terrestrial menace has come to Earth and we here at **ALIENS-R-REAL** 
   * [Level 1](#level-1)
   * [Level 2](#level-2)
 * [Technologies](#technologies)
+* [Set Up](#set-up)
 * [Status](#status)
 * [Contact](#contact)
 
@@ -28,6 +29,21 @@ Level 2 provides a form to filter by 5 different criteria: date/time, city, stat
 * D3.js
 * HTML5
 * JavaScript 
+
+## Set Up ##
+To run this on your local machine, complete the following steps. 
+
+1. Clone the repository to your local drive by: 
+    * Clicking on the green "Code" buttom at the top of the page
+    * Copying the `SSH` code 
+    * Open your terminal and navigate to the directory you want this repository to live in 
+      * i.e. `cd Documents/` 
+    * Type `git clone` and paste the `SSH` code you copied from the GitHub website into your terminal and hit enter 
+2. Once the repository is on your local machine, you will navigate to the root folder, which in this case is names `javascript-challenge`. 
+3. To filter by date, navigate into the `UFO-level-1` folder and double click on the `index.html` document, which will open the webpage in your default browser. 
+4. There you will see on the left handside where you can input a date. After entering the date you would like to see UFO sightings for, click the `Filter Table` button, and any results will be displayed. 
+5. To filter with multiple inputs, navigate into the `UFO-level-2` folder and double click on the `index.html` document, which will open the webpage in your default browser. 
+6. Again,  on the left handside where you can enter user input. Sample input formatting is displayed in each input box. Every box will have to have user input in order to filter the table. After entering the user input you would like to filter UFO sightings for, click the `Filter Table` button, and any results will be displayed. 
 
 #### Status #### 
 This project is *complete*.
